@@ -1,0 +1,144 @@
+body{
+    background-color:aqua;
+    color: black;
+    font-family: Arial, Helvetica;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin:0;
+}
+
+p{
+    font-size: 100%
+}
+a{
+    color:green;
+}
+a:hover{
+    color:red
+}
+p{
+    font-size: 20px;;
+}
+p:hover{
+    color:red
+}
+a:visited{
+    color: black;
+}
+h2{
+    color: green;
+}
+h4{
+    font-size: 40px;
+    color:green;
+}
+h1{
+    font-size: 78px;
+}
+
+.container{
+    
+    width: 80%;
+    margin:auto;
+    overflow: hidden;
+}
+
+#mainheader{
+    background-color:aqua;
+    color:black;
+}
+
+#navbar{
+    font-size: 12px;
+    background-color: deepskyblue;
+    
+}
+#navbar ul{
+    padding:0;
+    list-style: none;
+    float: right;
+    
+}
+#navbar li{
+    display: inline;
+    text-align: right;
+}
+#navbar a{
+    color: green;
+    text-decoration: underline;
+    padding-right: 15px;
+    font-size: 18px;
+    
+}
+#navbar a:hover{
+    color:red;
+}
+
+
+#showcase{
+    background-image: url(../css/Desert.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 250px;
+    text-align: center;
+}
+
+#showcase h3{
+    color:deepskyblue;
+    font-size: 30px;
+    line-height: 1.6em;
+    padding-top: 60px;
+}
+
+#main{
+    float:left;
+    width:70%;
+    padding:0 30px;
+    box-sizing: border-box;
+    border-radius: 35px;
+    color:black;
+    margin-top: 30px;
+}
+
+#sidebar{
+    float:right;
+    width:30%;
+    padding:10px;
+    box-sizing: border-box;
+    background: black;
+    border-radius: 35px;
+    color: grey;
+    margin-top: 30px
+}
+#mainfooter{
+    height: 25px;
+    margin-top: 30px;
+    padding: 20px;
+    background: black;
+    text-align: center;
+    color:white;
+    
+}
+
+#mainfooter2{
+    height: 25px;
+    margin-top: 30px;
+    padding: 20px;
+    background: white;
+    text-align: center;
+}
+h5{
+    color:white;
+    font-size: 30px;
+}
+
+@media (max-width:600px){
+    #main{
+        width: 100%;
+        float:none;
+    }
+    #sidebar{
+        width: 100%;
+        float:none;
+    }
+}
